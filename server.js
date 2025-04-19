@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 // Set up Socket.io with CORS enabled
 const io = socketIo(server, {
   cors: {
-    origin: ["http://localhost:3000", "https://swibi-client.vercel.app", "https://swibi.vercel.app"],
+    origin: ["http://localhost:3000", "https://swibi.bouderna.me", "https://swibi.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true
   }
